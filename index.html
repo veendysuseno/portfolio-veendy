@@ -1,0 +1,133 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<title>Veendy Suseno | IT Support Specialist & Network Support</title>
+<meta name="description" content="Portfolio Veendy — IT Support Specialist dengan fokus pada technical support, troubleshooting, networking, hardware, Linux, Raspberry Pi, dan IoT.">
+<meta property="og:type" content="website">
+<meta property="og:title" content="Veendy | IT Support Specialist & Network Support">
+<meta property="og:description" content="Troubleshooting systems, supporting users, and keeping technology running.">
+<meta name="color-scheme" content="dark">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Manrope:wght@400;500;700;800&display=swap">
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+<header><div class="w bar">
+<a class="logo" href="#home" aria-label="Veendy Suseno, ke atas"><i>V</i>Veendy Suseno</a>
+<nav aria-label="Navigasi utama"><ul id="menu"></ul></nav>
+<a class="btn p cv" data-cv href="#">Download CV</a>
+<button class="burger" id="bg" aria-label="Buka menu" aria-expanded="false" aria-controls="menu"><span></span><span></span><span></span></button>
+</div></header>
+
+<main>
+<section class="hero" id="home"><div class="w">
+<div>
+<span class="badge"><i class="dot"></i>AVAILABLE FOR IT SUPPORT / NETWORK ROLE</span>
+<h1>IT Support Specialist</h1>
+<p class="sub">Network Support • Technical Support • Troubleshooting</p>
+<p class="lead" id="intro"></p>
+<div class="row"><a class="btn p" href="#projects">View My Projects</a><a class="btn" data-cv href="#">Download CV</a></div>
+<div class="soc" id="soc"></div>
+</div>
+<div style="position:relative"><div class="chips" id="chips" aria-hidden="true"></div>
+<div class="term" role="img" aria-label="Tampilan terminal status sistem: semua sistem operasional"><div class="hd"><b></b><b></b><b></b><span>veendysuseno@support:~$ status</span></div><pre id="tm" aria-hidden="true"></pre></div></div>
+</div></section>
+
+<section id="about">
+    <div class="w about">
+
+        <div class="photo rv">
+            <img
+                src="assets/img/profile.jpg"
+                alt="Foto profil Veendy Suseno"
+            >
+        </div>
+
+        <div class="rv">
+            <div class="h2">
+                <small></small>
+                <h2>About Me</h2>
+            </div>
+
+            <h3>Problem Solver with a Technical Mindset</h3>
+
+            <p>
+                Saya memiliki ketertarikan pada dunia teknologi informasi dan fokus
+                mengembangkan kemampuan di bidang IT Support, networking, hardware,
+                software, dan IoT.
+            </p>
+
+            <p>
+                Saya menikmati proses troubleshooting, menganalisis masalah,
+                mencari penyebab, dan menemukan solusi yang efektif. Saya juga
+                terbiasa mempelajari teknologi melalui praktik langsung dan project.
+            </p>
+
+            <div class="stats" id="stats"></div>
+        </div>
+
+    </div>
+</section>
+
+<section id="skills"><div class="w">
+<div class="h2 rv"><small></small><h2>Technical Skills</h2></div>
+<div class="grid g3" id="sk"></div>
+<div class="tools rv" id="tools"></div>
+</div></section>
+
+<section id="projects"><div class="w">
+<div class="h2 rv"><small></small><h2>Featured Projects</h2></div>
+<div class="proj" id="pj"></div>
+</div></section>
+
+<section id="workflow"><div class="w">
+<div class="h2 rv"><small></small><h2>How I Solve Technical Problems</h2></div>
+<div class="flow rv" id="fl"></div>
+<p class="cap rv">"Systematic troubleshooting. Practical solutions."</p>
+</div></section>
+
+<section id="experience"><div class="w">
+<div class="h2 rv"><small></small><h2>Experience & Learning Journey</h2></div>
+<div class="tl" id="xp"></div>
+</div></section>
+
+<section id="education"><div class="w">
+<div class="h2 rv"><small></small><h2>Education</h2></div>
+<div class="grid g3" id="ed"></div>
+<div class="h2 rv" style="margin-top:72px"><small></small><h2>Certifications & Training</h2></div>
+<div class="grid g3" id="ce"></div>
+</div></section>
+
+<section id="github"><div class="w gh rv">
+<div><div class="h2" style="margin-bottom:18px"><small></small><h2>Explore My Work</h2></div>
+<p>Beberapa project dan eksperimen teknologi saya tersedia di GitHub.</p>
+<div class="card" style="margin:22px 0;max-width:380px"><h3>GitHub</h3><span class="mono" id="ghu" style="color:var(--ac)"></span></div>
+<a class="btn p" id="ghb" href="#" target="_blank" rel="noopener">Visit GitHub</a></div>
+<div class="card" aria-hidden="true"><div class="mono" style="font-size:12px;color:var(--mu);margin-bottom:14px">activity (ilustrasi)</div><div class="act" id="act"></div></div>
+</div></section>
+
+<section id="contact"><div class="w ct">
+<div class="rv"><div class="h2" style="margin-bottom:16px"><small></small><h2>Let's Work Together</h2></div>
+<p style="color:var(--mu);max-width:44ch">Terbuka untuk kesempatan di bidang IT Support, Technical Support, Helpdesk, System Support, dan Networking.</p>
+<div class="cards" id="cc"></div></div>
+<form class="rv" id="f" novalidate aria-label="Form kontak">
+<div><label for="n">Name</label><input id="n" name="n" autocomplete="name" required><div class="err">Nama wajib diisi.</div></div>
+<div><label for="e">Email</label><input id="e" name="e" type="email" autocomplete="email" required><div class="err">Masukkan email yang valid.</div></div>
+<div><label for="s">Subject</label><input id="s" name="s" required><div class="err">Subjek wajib diisi.</div></div>
+<div><label for="m">Message</label><textarea id="m" name="m" rows="5" required></textarea><div class="err">Pesan minimal 10 karakter.</div></div>
+<button class="btn p" type="submit">Send Message</button>
+<p class="mono" style="font-size:12px;color:var(--mu)">Tombol ini membuka aplikasi email Anda (mailto), belum terhubung ke server.</p>
+</form>
+</div></section>
+</main>
+
+<footer><div class="w ft">
+<div><b>Veendy Suseno</b><br>IT Support Specialist | Network Support<br>© 2026 Veendy Suseno. All rights reserved.<br>Built with passion for technology.</div>
+<nav aria-label="Tautan footer" id="fn"></nav>
+</div></footer>
+<div id="toast" role="status" aria-live="polite"></div>
+
+<script src="script.js"></script>
+</body>
+</html>
