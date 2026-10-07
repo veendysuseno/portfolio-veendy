@@ -148,12 +148,12 @@ const DATA = {
     ["Universitas Gunadarma", "S1 Sistem Komputer", "2016-2022", "Network, Robotika, IoT"],
   ],
   certs: [
-    ["Certification / Training 01"],
-    ["Certification / Training 02"],
-    ["Certification / Training 03"],
-    ["Certification / Training 04"],
-    ["Certification / Training 05"],
-    ["Certification / Training 06"],
+    ["MikroTik Certified Network Associate [Issued Nov 2024 · Expires Nov 2027]"],
+    ["Fortinet Network Security Expert Level 4: Certified Professional [Issued Nov 2024 · Expires Nov 2026]"],
+    ["Google IT Support Specialization [Issued Jul 2023]"],
+    ["Google Cybersecurity Specialization [Issued Nov 2024]"],
+    ["Alibaba Cloud Certification [Issued Aug 2024 · Expired Aug 2026]"],
+    ["BNSP Computer Technical Support [Issued Dec 2024 · Expires Dec 2027]"],
   ],
 };
 
