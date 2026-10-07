@@ -1,4 +1,8 @@
+<<<<<<< HEAD
 # My Portfolio
+=======
+# Veendy Suseno Portfolio
+>>>>>>> 8f339ba0ea0afd04b73bcca0e7c1c9ebfc9839cf
 
 This project is a personal portfolio website for Veendy Suseno, an IT Support Specialist and Network Support professional. The site showcases experience, technical skills, projects, education, and contact information in a clean single-page layout.
 
