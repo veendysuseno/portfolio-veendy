@@ -804,16 +804,3 @@ footer {
     transform: none;
   }
 }
-.btn-whatsapp {
-  border-color: #25D366;
-  color: #25D366;
-  text-decoration: none;
-  transition: 0.25s ease;
-}
-.btn-whatsapp:hover {
-  background: #25D366;
-  color: #ffffff;
-  border-color: #25D366;
-  transform: translateY(-2px);
-}
-
